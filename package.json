@@ -1,0 +1,27 @@
+{
+  "name": "mongoscrape",
+  "version": "1.0.0",
+  "description": "Scrape websites and save them to a databse",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmagombo/MongoScrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmagombo/MongoScrape/issues"
+  },
+  "homepage": "https://github.com/tmagombo/MongoScrape#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.5.12"
+  }
+}
